@@ -30,9 +30,9 @@ int transport()
 	
 	//参数设置
 	PyObject *pArgs = PyTuple_New(3);
-	PyTuple_SetItem(pArgs, 0, Py_BuildValue(“i”, 1));//0—序号 i表示创建int型变量
-	PyTuple_SetItem(pArgs, 1, Py_BuildValue(“i”, 2));
-	PyTuple_SetItem(pArgs, 2, Py_BuildValue(“i”, 3));
+	PyTuple_SetItem(pArgs, 0, Py_BuildValue("i",, 1));//0—序号 i表示创建int型变量
+	PyTuple_SetItem(pArgs, 1, Py_BuildValue("i",, 2));
+	PyTuple_SetItem(pArgs, 2, Py_BuildValue("i", 3));
 
 	//通过字典属性获取模块中的类
     PyRun_SimpleString("print('----------PyDict_GetItemString Example class')");
